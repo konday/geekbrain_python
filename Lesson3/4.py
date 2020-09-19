@@ -8,7 +8,7 @@
 def my_sqr (x, y):
     temp = x**y
     return temp
-print (my_sqr (2, 10))
+print (my_sqr (2, -10))
 
 def my_sqr2 (x, y):
     temp = x
@@ -24,4 +24,4 @@ def my_sqr2 (x, y):
         x = x*temp
         i=i+1
     return x  
-print (my_sqr2 (2, 10))
+print (my_sqr2 (2, -10))
